@@ -301,7 +301,6 @@ local guiParent = (gethui and gethui()) or game:GetService("CoreGui")
 local gui = createInstance("ScreenGui", {
     Name = "C_UI",
     ResetOnSpawn = false,
-    ZIndexBehavior = Enum.ZIndexBehavior.Sibling,
     IgnoreGuiInset = true,
 }, guiParent)
 
